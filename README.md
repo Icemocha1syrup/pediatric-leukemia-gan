@@ -154,26 +154,6 @@ pip
 Install dependencies
 bashpip install streamlit pandas numpy torch scikit-learn biopython
 Run the application
-bash# Step 1 — Generate V1 dataset
-python genome.py
-
-# Step 2 — Train V1 GAN
-python genomic_gan.py
-
-# Step 3 — Train V1 predictor
-python risk_predictor.py
-
-# Step 4 — Generate V2 dataset
-python genome_v2.py
-
-# Step 5 — Train V2 GAN
-python genome_gan_v2.py
-
-# Step 6 — Train V2 predictor
-python risk_predictor_v2.py
-
-# Step 7 — Launch web app
-streamlit run apptest.py
 
 Key Innovations
 1. Post-hoc Frequency Correction
